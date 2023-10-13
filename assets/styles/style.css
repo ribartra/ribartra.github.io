@@ -666,6 +666,88 @@ padding: 35px 100px 20px;
 
 }
 
+/* Global styles for the Testimonials section */
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F7E9E9;
+  }
+  .testimonials-text {
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      color: #2D9731;
+  }
+  .testimonials-testimonials {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    padding:0px;
+    max-width: 1000px;
+    margin: 100px;
+    align-items: center;
+  }
+  /* Styles for individual testimonial cards */
+  .testimonials-testimonialscarditem6,
+  .testimonials-testimonialscarditem61 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  /* Styles for the container */
+  .testimonial-person,.testimonial-person1 {
+      position: relative;
+      overflow: hidden;
+      /* Set dimensions of the container */
+      width: 200px;
+      height: 300px;
+      align-items: center;
+  }
+  /* Styles for the image */
+  .testimonial-person img,.testimonial-person1 img {
+      display: block;      /* Remove any default spacing */
+      width: 100%;         /* Set width to fill the container */
+      height: 100%;        /* Set height to fill the container */
+      object-fit: cover;   /* Ensure image covers the container while maintaining its aspect ratio */
+      margin: 0 auto; 
+  }
+  .testimonials-cardcontent,
+  .testimonials-cardcontent1 {
+    text-align: center;
+  }
+  .testimonials-text02,
+  .testimonials-text08 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .testimonials-text04,
+  .testimonials-text10 {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  .testimonials-stars,
+  .testimonials-stars1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .testimonials-text06,
+  .testimonials-text12 {
+    font-size: 16px;
+  }
+  
+
 /* Services Section */
 
 .services {
